@@ -19,6 +19,7 @@ namespace ASYNC_front1.Controllers
             _hotel = hotel;
         }
 
+
         public async Task<IActionResult> Index()
         {
             var result = await _hotel.GetAllHotels();

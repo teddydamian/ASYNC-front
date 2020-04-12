@@ -14,8 +14,8 @@ namespace ASYNC_front1.Models.Services
 
         public async Task<List<Hotel>> GetAllHotels()
         {
-            var baseUrl = @"https://localhost:5001/api";
-            string route = "hotels";
+            var baseUrl = @"https://async-inntdcb.azurewebsites.net/api";
+            string route = "hotel";
 
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
@@ -26,6 +26,7 @@ namespace ASYNC_front1.Models.Services
             var result = await JsonSerializer.DeserializeAsync<List<Hotel>>(streamTask);
 
             return result;
+            throw new NotImplementedException();
         }
 
         public Task GetHotelByID()
