@@ -1,0 +1,19 @@
+﻿@model IEnumerable<ASYNC_front1.Models.Hotel>
+
+
+<!DOCTYPE html>
+
+<head>
+    <title>Hotel</title>
+</head>
+
+<body>
+    <p>TEST</p>
+       @foreach (var item in Model)
+       {
+           <h1>@item.Name</h1>
+           <p>@item.Phone</p>
+           <br/>
+       }
+
+</body>

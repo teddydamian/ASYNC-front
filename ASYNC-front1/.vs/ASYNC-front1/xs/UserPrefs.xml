@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{332983BC-9433-4CE3-974F-168638A25D70}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ASYNC-front1/Startup.cs">
+    <Files>
+      <File FileName="ASYNC-front1/Startup.cs" Line="20" Column="10" />
+      <File FileName="ASYNC-front1/Controllers/HomeController.cs" Line="29" Column="2" />
+      <File FileName="ASYNC-front1/Models/Interfaces/IHotelManager.cs" Line="13" Column="1" />
+      <File FileName="ASYNC-front1/Models/Services/HotelService.cs" Line="33" Column="30" />
+      <File FileName="ASYNC-front1/Views/Home/Index.cshtml" Line="19" Column="8" />
+      <File FileName="ASYNC-front1/Program.cs" Line="23" Column="50" />
+      <File FileName="ASYNC-front1/ASYNC-front1.csproj" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ASYNC-front1" expanded="True">
+            <Node name="ASYNC-front1" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ASYNC-front1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/teddydamian/Desktop/codefellow/code401ASP.NET/ASYNC-front/ASYNC-front1/ASYNC-front1/Controllers/HomeController.cs" relfile="ASYNC-front1/Controllers/HomeController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/teddydamian/Desktop/codefellow/code401ASP.NET/ASYNC-front/ASYNC-front1/ASYNC-front1/Controllers/HomeController.cs" relfile="ASYNC-front1/Controllers/HomeController.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
